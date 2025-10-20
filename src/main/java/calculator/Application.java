@@ -9,7 +9,7 @@ public class Application {
         String input = Console.readLine();
 
         // TODO: 프로그램 구현
-        int answer = StringCalculater.add(input);
+        int answer = StringCalculator.add(input);
 
         // 결과 출력
         System.out.println("결과 : "+ answer);
