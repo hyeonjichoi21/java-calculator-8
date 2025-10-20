@@ -8,7 +8,11 @@ public class StringCalculator {
     public static int add(String input){
 
         // 빈값 "" 이면 return 0;
-        if (input == null || input.isEmpty()) return 0;
+        if (input == null) return 0;
+        // 공백 허용 (첫 문자 검사 전)
+        input = input.trim();
+
+        if(input.isEmpty()) return 0;
 
         char firstWord = input.charAt(0);
 
