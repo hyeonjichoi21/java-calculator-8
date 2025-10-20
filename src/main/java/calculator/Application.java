@@ -1,4 +1,5 @@
 package calculator;
+
 import camp.nextstep.edu.missionutils.Console;
 
 
@@ -12,7 +13,7 @@ public class Application {
         int answer = StringCalculator.add(input);
 
         // 결과 출력
-        System.out.println("결과 : "+ answer);
+        System.out.println("결과 : " + answer);
 
     }
 }
