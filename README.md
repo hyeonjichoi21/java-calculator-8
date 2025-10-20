@@ -14,3 +14,4 @@
   - // 뒤에 문자인지? 숫자인지? 
 
 - 초기 입력 및, 기능에 따른 IllegalArgumentException 에러처리를 완성한다. 
+- Java Style Guide를 위배하지 않았는지 검수한다.  
