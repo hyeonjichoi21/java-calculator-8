@@ -23,6 +23,7 @@ public final class DelimiterSplitter {
         // 본문(피연산자 + 연산자) 추출 (trim() → 공백 허용)
         String body = input.substring(5).trim();
 
+
         return body.split(String.valueOf(delimiter));
     }
 
